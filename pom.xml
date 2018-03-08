@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vitormp</groupId>
-	<artifactId>git-release-example</artifactId>
+	<artifactId>maven-druva-release</artifactId>
 	<version>0.1.14-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:git@github.com:sundeepbobba/git-release-example.git</connection>
-		<developerConnection>scm:git:git@github.com:sundeepbobba/git-release-example.git</developerConnection>
-		<url>scm:git:git@github.com:sundeepbobba/git-release-example.git</url>
+		<connection>scm:git:https://github.com/DruvaRam/maven-release.git</connection>
+		<developerConnection>scm:git:https://github.com/DruvaRam/maven-release.git</developerConnection>
+		<url>scm:git:https://github.com/DruvaRam/maven-release.git</url>
           <tag>HEAD</tag>
   </scm>
 
@@ -20,21 +20,20 @@
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<name>My releases</name>
-			<url>http://192.168.0.66:8081/repository/Releases</url>
+			<url>http://54.162.60.42:8081/repository/maven-releases</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>My snapshots</name>
-			<url>http://192.168.0.66:8081/repository/Snapshots</url>
+			<url>http://54.162.60.42:8081/repository/maven-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 
 	<build>
-		<finalName>git-release-example</finalName>
+		<finalName>maven-druva-release</finalName>
 
 		<plugins>
 			<plugin>
