@@ -4,7 +4,7 @@
 
 	<groupId>com.vitormp</groupId>
 	<artifactId>maven-druva-release</artifactId>
-	<version>0.1.17-SNAPSHOT</version>
+	<version>0.1.18-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,7 +13,7 @@
 		<connection>scm:git:https://github.com/DruvaRam/maven-release.git</connection>
 		<developerConnection>scm:git:https://github.com/DruvaRam/maven-release.git</developerConnection>
 		<url>scm:git:https://github.com/DruvaRam/maven-release.git</url>
-          <tag>maven-druva-release-0.1.17</tag>
+          <tag>maven-druva-release-0.1.16</tag>
   </scm>
 
 	<distributionManagement>
