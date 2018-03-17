@@ -2,7 +2,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.vitormp</groupId>
+	<groupId>com.druva</groupId>
 	<artifactId>maven-druva-release</artifactId>
 	<version>0.1.22-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -20,14 +20,14 @@
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<url>http://54.162.60.42:8081/repository/maven-releases</url>
+			<url>http://localhost:8081/repository/druva-maven-snapshot/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>My snapshots</name>
-			<url>http://54.162.60.42:8081/repository/maven-snapshots</url>
+			<url>http://localhost:8081/repository/druva-maven-release/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
