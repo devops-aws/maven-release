@@ -4,7 +4,7 @@
 
 	<groupId>com.druva</groupId>
 	<artifactId>maven-release</artifactId>
-	<version>29</version>
+	<version>30-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,7 +13,7 @@
 		<connection>scm:git:https://github.com/devops-aws/maven-release.git</connection>
 		<developerConnection>scm:git:https://github.com/devops-aws/maven-release.git</developerConnection>
 		<url>scm:git:https://github.com/devops-aws/maven-release.git</url>
-          <tag>maven-release-29</tag>
+          <tag>maven-release-0.1.16</tag>
   </scm>
 
 	<distributionManagement>
