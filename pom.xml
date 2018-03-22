@@ -4,7 +4,7 @@
 
 	<groupId>com.sivaskar</groupId>
 	<artifactId>maven-release</artifactId>
-	<version>2-SNAPSHOT</version>
+	<version>2</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
@@ -13,7 +13,7 @@
 		<connection>scm:git:git@github.com:devops-aws/maven-release.git</connection>
 		<developerConnection>scm:git:git@github.com:devops-aws/maven-release.git</developerConnection>
 		<url>scm:git:git@github.com:devops-aws/maven-release.git</url>
-          <tag>HEAD</tag>
+          <tag>maven-release-2</tag>
   </scm>
 
 	<distributionManagement>
