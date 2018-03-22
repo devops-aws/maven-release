@@ -3,37 +3,38 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.druva</groupId>
-	<artifactId>maven-druva-release</artifactId>
+	<artifactId>maven-release</artifactId>
 	<version>28-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>git-release-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:https://github.com/DruvaRam/maven-release.git</connection>
-		<developerConnection>scm:git:https://github.com/DruvaRam/maven-release.git</developerConnection>
-		<url>scm:git:https://github.com/DruvaRam/maven-release.git</url>
-          <tag>maven-druva-release-0.1.16</tag>
+		<connection>scm:git:https://github.com/devops-aws/maven-release.git</connection>
+		<developerConnection>scm:git:https://github.com/devops-aws/maven-release.git</developerConnection>
+		<url>scm:git:https://github.com/devops-aws/maven-release.git</url>
+          <tag>maven-release-0.1.16</tag>
   </scm>
 
 	<distributionManagement>
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<url>http://localhost:8081/repository/druva-maven-release/</url>
+			<name>maven-releases</name>
+			<url>http://52.23.228.193:8081/repository/maven-releases/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
-			<name>My snapshots</name>
-			<url>http://localhost:8081/repository/druva-maven-snapshot/</url>
+			<name>maven-snapshots</name>
+			<url>http://52.23.228.193:8081/repository/maven-releases/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 
 	<build>
-		<finalName>maven-druva-release</finalName>
+		<finalName>maven-release</finalName>
 
 		<plugins>
 			<plugin>
